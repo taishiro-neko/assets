@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Unassigned District Credits</title>
+  <style>
+    :root {
+      --bg: #16121f;
+      --panel: #211a2e;
+      --panel2: #2c243a;
+      --text: #f7efff;
+      --muted: #c9b9d8;
+      --accent: #ff77cc;
+      --accent2: #8ee6ff;
+      --line: #4a3c5f;
+      --warn: #ffd166;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at 20% 0%, rgba(255, 119, 204, .18), transparent 30%),
+        radial-gradient(circle at 80% 10%, rgba(142, 230, 255, .14), transparent 28%),
+        var(--bg);
+      line-height: 1.55;
+    }
+    main {
+      width: min(980px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 64px;
+    }
+    header {
+      padding: 30px;
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: linear-gradient(135deg, rgba(33, 26, 46, .95), rgba(44, 36, 58, .86));
+      box-shadow: 0 18px 70px rgba(0,0,0,.25);
+    }
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(2rem, 5vw, 4rem);
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+    h2 {
+      margin: 36px 0 14px;
+      font-size: 1.45rem;
+      color: var(--accent2);
+    }
+    p { color: var(--muted); margin: 0.5rem 0; }
+    a { color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 3px; }
+    a:hover { color: var(--accent2); }
+    .note {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border-left: 4px solid var(--accent);
+      background: rgba(255,255,255,.04);
+      border-radius: 12px;
+    }
+    .section {
+      margin-top: 22px;
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      background: rgba(33, 26, 46, .78);
+    }
+    .credit-list {
+      display: grid;
+      gap: 12px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    .credit {
+      padding: 14px;
+      border: 1px solid rgba(255,255,255,.09);
+      border-radius: 16px;
+      background: rgba(255,255,255,.035);
+    }
+    .asset-title {
+      font-weight: 700;
+      color: var(--text);
+    }
+    .meta {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+    .tag {
+      display: inline-block;
+      margin: 6px 6px 0 0;
+      padding: 2px 8px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: .82rem;
+      background: rgba(0,0,0,.14);
+    }
+    .warning {
+      border-color: rgba(255, 209, 102, .45);
+      background: rgba(255, 209, 102, .08);
+    }
+    .warning .asset-title::before { content: "⚠️ "; }
+    footer {
+      margin-top: 36px;
+      color: var(--muted);
+      font-size: .9rem;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Unassigned District Credits</h1>
+    <p>Thank you to the creators of the assets, tools, textures, fonts, music, and sound effects used in this game.</p>
+  </header>
+
+  <section class="section">
+    <h2>3D Assets, Tools, Textures, and Materials</h2>
+    <ul class="credit-list">
+      <li class="credit">
+        <div class="asset-title"><a href="https://polyhaven.com/" target="_blank" rel="noopener">Poly Haven textures</a></div>
+        <div class="meta">Creator/source: Poly Haven</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://assetstore.unity.com/packages/3d/characters/humanoids/humans/human-character-dummy-178395" target="_blank" rel="noopener">Human Character Dummy</a></div>
+        <div class="meta">Publisher: KI Kevin Iglesias. License: Standard Unity Asset Store EULA.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://assetstore.unity.com/packages/3d/animations/human-spellcasting-animations-free-326043" target="_blank" rel="noopener">Human Spellcasting Animations FREE</a></div>
+        <div class="meta">Publisher: KI Kevin Iglesias. License: Standard Unity Asset Store EULA.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://assetstore.unity.com/packages/3d/characters/robots/sci-fi-drones-90326" target="_blank" rel="noopener">Sci fi Drones</a></div>
+        <div class="meta">Publisher: LB Lukas Bobor. License: Standard Unity Asset Store EULA.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://assetstore.unity.com/packages/tools/level-design/omnidoor3d-318975" target="_blank" rel="noopener">OmniDoor3D</a></div>
+        <div class="meta">Publisher: ABCodeworld. License: Standard Unity Asset Store EULA.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://assetstore.unity.com/packages/3d/props/simple-gems-and-items-ultimate-animated-customizable-pack-73764" target="_blank" rel="noopener">Simple Gems and Items Ultimate Animated Customizable Pack</a></div>
+        <div class="meta">Publisher: BenjaTheMaker. License: Standard Unity Asset Store EULA.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://assetstore.unity.com/packages/3d/environments/realistic-fences-pack-211850" target="_blank" rel="noopener">Realistic Fences Pack</a></div>
+        <div class="meta">Publisher: WhiteXopc. License: Standard Unity Asset Store EULA.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://assetstore.unity.com/packages/2d/textures-materials/stylized-lava-materials-180943" target="_blank" rel="noopener">Stylized Lava materials</a></div>
+        <div class="meta">Publisher: Rob luo. License: Standard Unity Asset Store EULA.</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Fonts</h2>
+    <ul class="credit-list">
+      <li class="credit">
+        <div class="asset-title"><a href="https://www.dafont.com/university-2.font" target="_blank" rel="noopener">University</a></div>
+        <div class="meta">Creator: Geronimo Font Studios. Free for personal use.</div>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>Music and Sound Effects</h2>
+    <ul class="credit-list">
+      <li class="credit">
+        <div class="asset-title"><a href="https://freesound.org/s/569777/" target="_blank" rel="noopener">Retro Electro</a></div>
+        <div class="meta">Creator: TheoJT. License: Creative Commons Attribution 4.0.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://freesound.org/s/702575/" target="_blank" rel="noopener">Solemn Fortunes</a></div>
+        <div class="meta">Creator: FoolBoyMedia. License: Creative Commons Attribution NonCommercial 4.0.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://freesound.org/s/324252/" target="_blank" rel="noopener">Rings of Saturn Music Loop</a></div>
+        <div class="meta">Creator: rhodesmas. License: Creative Commons Attribution 4.0.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://freesound.org/s/794407/" target="_blank" rel="noopener">Angst (Seamlessly Loopable ambient music) (120 bpm)</a></div>
+        <div class="meta">Creator: ManuelGraf. License: Creative Commons Attribution 4.0.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://freesound.org/s/426470/" target="_blank" rel="noopener">Electronic music track X1</a></div>
+        <div class="meta">Creator: frankum. License: Creative Commons Attribution 4.0.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://freesound.org/s/595384/" target="_blank" rel="noopener">Diisco 70's - Cinematic Disco Retro Music.wav</a></div>
+        <div class="meta">Creator: szegvari. License: Creative Commons 0.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://freesound.org/s/612277/" target="_blank" rel="noopener">10835 big fire loop.wav</a></div>
+        <div class="meta">Creator: Robinhood76. License: Creative Commons Attribution NonCommercial 4.0.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://freesound.org/s/592572/" target="_blank" rel="noopener">Flame Burst</a></div>
+        <div class="meta">Creator: magnuswaker. License: Creative Commons 0.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://freesound.org/s/717657/" target="_blank" rel="noopener">Teleport</a></div>
+        <div class="meta">Creator: TheBuilder15. License: Creative Commons Attribution 4.0.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://freesound.org/s/655756/" target="_blank" rel="noopener">Dystopian Robot.mp3</a></div>
+        <div class="meta">Creator: Elsje_. License: Creative Commons Attribution NonCommercial 4.0.</div>
+      </li>
+      <li class="credit">
+        <div class="asset-title"><a href="https://freesound.org/s/394466/" target="_blank" rel="noopener">Enemy Destroyed</a></div>
+        <div class="meta">Creator: plasterbrain. License: Creative Commons 0.</div>
+      </li>
+    </ul>
+  </section>
+
+<section class="section">
+    <h2>Code</h2>
+    <ul class="credit-list">
+      <li class="credit">
+        <div class="asset-title"><a href="https://www.coursera.org/learn/game-design-and-development-4/" target="_blank" rel="noopener">Game Design and Development 4: 3D Platformer</a></div>
+        <div class="meta">Creator/source: Coursera, Michigan State University</div>
+      </li>
+    </ul>
+  </section>
+
+<section class="section">
+  <h2>Play the Game</h2>
+  <p>
+    You can play it here:
+    <a href="https://ellieplayground.itch.io/unassigned-district">Unassigned District</a>
+  </p>
+</section>
+
+
+  <footer>
+    Last updated: May 4, 2026.
+  </footer>
+</main>
+</body>
+</html>
